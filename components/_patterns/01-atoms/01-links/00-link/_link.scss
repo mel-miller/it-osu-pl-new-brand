@@ -1,18 +1,16 @@
 @mixin link {
   color: $color-link;
-  text-decoration: underline;
-  display: inline-block;
-  padding: 0 1px;
+  text-decoration: none;
+  border-bottom: 1px solid $red;
 
   &:hover {
-    color: $color-link--hover;
-    background: $color-link-bg--hover;
-    text-decoration: none;
+    color: $black;
+    border-bottom-color: $black;
+    background-color: $near-white;
   }
 
   &:focus {
     outline: 1px solid $color-link-bg--hover;
-    text-decoration: none;
   }
 }
 
