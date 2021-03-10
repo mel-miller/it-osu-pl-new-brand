@@ -5,6 +5,16 @@ banner_image_alt: "Alt text for this image."
 banner_text: Learn how to temporarily move your class online.
 banner_link_src: '#'
 banner_link_title: View Resources
+menu_items:
+  1: 
+    label: "Home"
+    link: "#"
+  2: 
+    label: "News"
+    link: "#"
+  2: 
+    label: "Article"
+    link: "#"
 breadcrumb:
   1:
     url: "#"

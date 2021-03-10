@@ -1,0 +1,7 @@
+menu_items:
+  1: 
+    label: "Home"
+    link: "#"
+  2: 
+    label: "News"
+    link: "#"
