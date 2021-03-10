@@ -1,18 +1,5 @@
-{% extends "@templates/drupal/page-template.twig" %}
+<div class="layout__wrapper layout__wrapper--article grid-container">
 
-{% block breadcrumb %}
-	{% include "@molecules/menus/breadcrumb/breadcrumb.twig" %}
-{% endblock %}
-
-{% block system %}
-	{% include "@molecules/status-message/_status-message.twig" %}
-{% endblock %}
-
-{% block primary_menu %}
-	{% include "@molecules/menus/main-menu-alt/main-menu-alt.twig" %}
-{% endblock %}
-
-{% block content %}
 	<h1 class="page-title">Best Practices for Secure Zoom Meetings</h1>
 
 	<div class="dateline">March 5, 2021</div>
@@ -65,9 +52,4 @@
 			<a href="https://blog.zoom.us/wordpress/2020/02/14/secure-your-meetings-zoom-waiting-rooms/?zcid=1231" class="ext" target="_blank">Waiting Room</a>
 			is a virtual staging area that stops your guests from joining until you're ready for them. This way you can screen participants and only allow those you are expecting to join. Take a good look at the display name for each entrant before letting them in to the meeting.&nbsp; Many of the people who have disrupted Zoom meetings at Ohio State and elsewhere have advertised their bad intentions by using obviously offensive display names or names that are gross puns when said out loud.</li>
 	</ul>
-{% endblock %}
-{% block sidebar_2 %}
-
-
-	{% include "@molecules/info-box/info-box.twig" %}
-{% endblock %}
+</div>
