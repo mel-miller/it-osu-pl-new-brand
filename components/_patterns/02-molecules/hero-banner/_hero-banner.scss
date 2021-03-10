@@ -41,7 +41,7 @@
   box-shadow: $drop-shadow;
 
   @include breakpoint(medium) {
-    background-color: rgba(240, 240, 240, 0.7);
+    background-color: rgba(240, 240, 240, 0.8);
     margin-top: 0;
     position: absolute;
     top: 1.5em;
