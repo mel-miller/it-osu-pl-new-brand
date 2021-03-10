@@ -1,0 +1,18 @@
+{% extends "@templates/drupal/page-template.twig" %}
+
+{% block breadcrumb %}
+	{% include "@molecules/menus/breadcrumb/breadcrumb.twig" %}
+{% endblock %}
+
+{% block system %}
+	{% include "@molecules/status-message/_status-message.twig" %}
+{% endblock %}
+
+{% block primary_menu %}
+	{% include "@molecules/menus/main-menu/main-menu.twig" %}
+{% endblock %}
+
+
+{% block sidebar_2 %}
+	{% include "@molecules/info-box/info-box.twig" %}
+{% endblock %}

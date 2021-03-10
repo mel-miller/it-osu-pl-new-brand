@@ -1,0 +1,24 @@
+masthead_variant: standard
+masthead_color: white
+banner_image: '../../images/banners/energy_3760.jpeg'
+banner_image_alt: "Alt text for this image."
+banner_text: Learn how to temporarily move your class online.
+banner_link_src: '#'
+banner_link_title: View Resources
+breadcrumb:
+  1:
+    url: "#"
+    text: "Home"
+  2:
+    url: "#"
+    text: "Previous Page"
+  3:
+    url: "#"
+    text: "This Page"
+page_title: Authentication and Other Best Practices for Secure Zoom Meetings
+page:
+  content: "Zoom has been a critical tool in our daily lives this past year; from virtual classes and student activities to checking in with family and friends, we rely on Zoom to keep us connected. Naturally, no one wants those moments of connection disrupted by unwanted visitors or inappropriate behavior. Unfortunately, spring term has already seen an increase in the number of Zoom bombings reported."
+  sidebar_2: "testing"
+infobox_heading_level: 3
+infobox_title: 'How to Zoom'
+infobox_text: 'Literally asymmetrical hot chicken, edison bulb copper mug activated charcoal ut try-hard fam veniam cupidatat pop-up banjo. Helvetica mlkshk forage squid, quinoa air plant tilde snackwave cray sunt crucifix messenger bag sriracha tempor mumblecore. Flannel leggings velit chartreuse, lo-fi XOXO swag aliquip cliche.'
