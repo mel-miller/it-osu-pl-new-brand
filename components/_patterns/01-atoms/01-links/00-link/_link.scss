@@ -32,7 +32,8 @@
   }
 }
 
-a {
+a:not([class]),
+a.link {
   @include link();
 }
 

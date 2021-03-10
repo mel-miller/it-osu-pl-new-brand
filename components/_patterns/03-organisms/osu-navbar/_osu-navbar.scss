@@ -1,8 +1,4 @@
-@mixin osu-navbar(
-  $bg-color: $near-white,
-  $text-color: $gray-dark,
-  $image-src: '/images/'
-) {
+@mixin osu-navbar($bg-color: $near-white, $text-color: $gray-dark, $image-src: "/images/") {
   background: $bg-color;
   color: $text-color;
   border-bottom: 5px solid $red;
@@ -25,14 +21,13 @@
     height: 14px;
     width: 80px;
     margin-left: 0;
+    border-bottom: none;
     display: block;
     text-indent: -9999px;
-    background: url(https://www.osu.edu/assets/web/navbar/osu_navbar#{$image-src}osu_name.png)
-      0 0 no-repeat;
+    background: url(https://www.osu.edu/assets/web/navbar/osu_navbar#{$image-src}osu_name.png) 0 0 no-repeat;
 
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background: url(https://www.osu.edu/assets/web/navbar/osu_navbar#{$image-src}osu_name@2x.png)
-        0 0 no-repeat;
+      background: url(https://www.osu.edu/assets/web/navbar/osu_navbar#{$image-src}osu_name@2x.png) 0 0 no-repeat;
       background-size: contain;
     }
   }
@@ -102,8 +97,7 @@
               background: url(https://www.osu.edu/assets/web/navbar/osu_navbar#{$image-src}/resp-search.png);
             }
 
-            @media (-webkit-min-device-pixel-ratio: 2),
-              (min-resolution: 192dpi) {
+            @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
               &.help {
                 background: url(https://www.osu.edu/assets/web/navbar/osu_navbar#{$image-src}resp-help@2x.png);
               }
@@ -142,5 +136,5 @@
 }
 
 #osu_navbar.dark {
-  @include osu-navbar(#2e2e2e, $white, '/images/white/');
+  @include osu-navbar(#2e2e2e, $white, "/images/white/");
 }

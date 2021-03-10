@@ -38,10 +38,12 @@
   $bg-color: $white,
   $text-color: $black,
   $link-color: $red,
-  $link-hover: $white,
-  $link-bg-hover: $near-black,
+  $link-hover: $black,
+  $link-bg-hover: $near-white,
   $pipe-color: $red,
-  $border-color: $gray-border
+  $border-color: $gray-border,
+  $link-border-color: $red,
+  $link-border-color-hover: $black
 ) {
   background: $bg-color;
   color: $text-color;
@@ -56,11 +58,13 @@
       padding: 0 3px;
       color: $link-color;
       font-weight: 600;
+      border-bottom-color: $link-border-color;
     }
 
     a:hover {
       color: $link-hover;
       background: $link-bg-hover;
+      border-bottom-color: $link-border-color-hover;
     }
 
     a:focus {
@@ -121,11 +125,11 @@
 }
 
 .site-footer--lt-gray {
-  @include footer($near-white);
+  @include footer($near-white, $link-bg-hover: $white);
 }
 
 .site-footer--md-gray {
-  @include footer($gray, $white, $white, $gray, $white, $near-white);
+  @include footer($gray, $white, $white, $gray, $white, $near-white, $white, $white, $white);
   .social-media__item a {
     border: 1px solid $white;
     &:focus {
@@ -135,13 +139,5 @@
 }
 
 .site-footer--dk-gray {
-  @include footer(
-    $near-black,
-    $white,
-    $white,
-    $black,
-    $white,
-    $near-white,
-    $gray
-  );
+  @include footer($near-black, $white, $white, $black, $white, $near-white, $gray, $white, $white);
 }

@@ -11,9 +11,11 @@ ul.menu--main-menu-alt {
       font-weight: 400;
       color: $black;
       padding: rem-calc(12 14 11);
+      display: inline-block;
 
       &:hover {
         color: $white;
+        background-color: $black;
       }
       &:focus {
         outline: 2px solid $near-black;
