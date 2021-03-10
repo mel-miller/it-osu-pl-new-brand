@@ -8,13 +8,13 @@ banner_link_title: View Resources
 menu_items:
   1: 
     label: "Home"
-    link: "#"
+    url: "/?p=pages-front-page"
   2: 
     label: "News"
-    link: "#"
-  2: 
+    url: "#"
+  3: 
     label: "Article"
-    link: "#"
+    url: "/?p=pages-inside-page"
 breadcrumb:
   1:
     url: "#"

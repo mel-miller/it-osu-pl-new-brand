@@ -5,6 +5,16 @@ banner_image_alt: "Alt text for this image."
 banner_text: Learn how to temporarily move your class online.
 banner_link_src: '#'
 banner_link_title: View Resources
+menu_items:
+  1: 
+    label: "Home"
+    url: "/?p=pages-front-page"
+  2: 
+    label: "News"
+    url: "#"
+  3: 
+    label: "Article"
+    url: "/?p=pages-inside-page"
 breadcrumb:
   1:
     url: "#"
@@ -15,9 +25,6 @@ breadcrumb:
   3:
     url: "#"
     text: "Best Practices for Secure Zoom Meetings"
-
-page:
-  sidebar_2: "testing"
 infobox_heading_level: 3
 infobox_title: 'Learn More'
 infobox_text: 'Literally asymmetrical hot chicken, edison bulb copper mug activated charcoal ut try-hard fam veniam cupidatat pop-up banjo. Helvetica mlkshk forage squid, quinoa air plant tilde snackwave cray sunt crucifix messenger bag sriracha tempor mumblecore. Flannel leggings velit chartreuse, lo-fi XOXO swag aliquip cliche.'

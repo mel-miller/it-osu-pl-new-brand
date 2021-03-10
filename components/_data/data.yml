@@ -26,22 +26,12 @@ social_links:
     icon: facebook-f
     prefix: fab
   3:
-    name: LinkedIn
-    url: http://linkedin.com
-    icon: twitter
-    prefix: fab
-  4:
     name: YouTube
     url: http://youtube.com
     icon: youtube
     prefix: fab
-  5:
+  4:
     name: Instagram
     url: http://instagram.com
     icon: instagram
     prefix: fab
-  6:
-    name: Photo-sharing
-    url: http://flickr.com
-    icon: camera
-    prefix: fas

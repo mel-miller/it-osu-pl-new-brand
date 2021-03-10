@@ -1,7 +1,7 @@
 menu_items:
   1: 
     label: "Home"
-    link: "#"
+    url: "#"
   2: 
     label: "News"
-    link: "#"
+    url: "#"
