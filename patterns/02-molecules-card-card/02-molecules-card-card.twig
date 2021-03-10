@@ -1,0 +1,39 @@
+{#
+/**
+ *
+ * Pattern for the card molecule
+ *
+ * Available variables:
+ * - card_modifiers: array of modifiers to add to the base classname
+ * - card_extra_classes: string of extra classes to add to main div
+ * - card_image: url for the card's header image
+ * - card_title: text string for the card's title
+ * - card_text: text string for the card's content
+ * - card_link_url: link url.
+ * - card_link_title: link text.
+ *
+ */
+#}
+
+{% set card_base_class = card_base_class|default('card') %}
+{% set classes_array = [card_base_class] %}
+
+{% if card_modifiers is defined %}
+	{% for card_modifier in card_modifiers %}
+		{% set classes_array = classes_array|merge(["#{card_base_class}--#{card_modifier}"]) %}
+	{% endfor %}
+	{% set card_classes = classes_array|join(' ') %}
+{% else %}
+	{% set card_classes = card_base_class %}
+{% endif %}
+
+<div class="{{ card_classes }} {{ card_extra_classes }}">
+	<img class="card__image" alt="{{ card_image_alt }}" src="{{ card_image }}"/>
+	<div class="{{ card_base_class }}__inner">
+		<div class="card__title">
+			<h{{card_heading_level}}>{{ card_title }}</h{{card_heading_level}}>
+		</div>
+		<div class="card__content">{{ card_text }}</div>
+		<a class="button card__link" href="{{ card_link_url }}">{{ card_link_title }}</a>
+	</div>
+</div>

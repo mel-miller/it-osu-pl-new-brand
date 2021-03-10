@@ -1,0 +1,10 @@
+<div class="sg-typography">
+  {% for item in items %}
+    <div class="sg-typography__group">
+      {% for weight in item.weights %}
+        <p style="font-family: {{ item.value }}; font-style: {{ item.style }}; font-weight: {{ weight }}">{{ item.name }} {{ weight }}</p>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
+
