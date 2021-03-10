@@ -24,11 +24,21 @@
 @import "04-templates/**/*.scss";
 
 // Hacks to be added to patterns.
-.dateline {
-  font-weight: 700;
-  margin: rem-calc(16 0 12);
+.layout__wrapper--article {
+  padding: rem-calc(40 80);
 }
 
-.layout__wrapper--article {
-  padding-top: rem-calc(40);
+.category-tag {
+  display: inline-block;
+  background-color: $gray;
+  color: $white;
+  font-weight: 700;
+  padding: rem-calc(4 12);
+  margin: rem-calc(8 0 24);
+}
+
+.dateline {
+  font-weight: 600;
+  margin: rem-calc(4 0 24);
+  text-transform: uppercase;
 }

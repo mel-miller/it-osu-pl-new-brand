@@ -40,27 +40,27 @@ h1,
 
 h2,
 .h2 {
-  @include heading(28, 800, $nunito, 36px);
+  @include heading(30, 800, $nunito, 40px);
 }
 
 h3,
 .h3 {
-  @include heading(24, 700, $nunito, 32px);
+  @include heading(24, 600, $nunito, 32px);
 }
 
 h4,
 .h4 {
-  @include heading(20, 700, $nunito, 28px);
+  @include heading(22, 600, $nunito, 28px);
 }
 
 h5,
 .h5 {
-  @include heading(18, 700, $nunito, 24px);
+  @include heading(20, 600, $nunito, 26px);
 }
 
 h6,
 .h6 {
-  @include heading(18, 700, $nunito, 24px);
+  @include heading(20, 600, $nunito, 26px);
 }
 
 // Headers within long text.

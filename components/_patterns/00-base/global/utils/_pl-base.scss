@@ -1,4 +1,4 @@
-@import '../../../01-atoms/00-text/00-headings/_headings.scss';
+@import "../../../01-atoms/00-text/00-headings/_headings.scss";
 
 // These styles are specifically for use within Pattern Lab.
 .sg-main {
@@ -60,6 +60,7 @@
   font-size: 1.375rem;
   text-transform: uppercase;
   font-style: normal;
+  font-weight: 800;
 }
 
 .sg-colors {
