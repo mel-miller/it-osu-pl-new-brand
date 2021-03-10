@@ -35,42 +35,32 @@
 
 h1,
 .h1 {
-  @include heading(38, 800, $proxima);
+  @include heading(40, 800, $ssp, 48px);
 }
 
 h2,
 .h2 {
-  @include heading(28, 700, $proxima);
+  @include heading(28, 600, $nunito, 36px);
 }
 
 h3,
 .h3 {
-  @include heading(24, 400, $capita, 1.2, italic, black);
-  margin-bottom: rem-calc(10);
+  @include heading(24, 600, $nunito, 32px);
 }
 
 h4,
 .h4 {
-  @include heading(20, 700);
-  text-transform: uppercase;
+  @include heading(20, 600, $nunito, 28px);
 }
 
 h5,
 .h5 {
-  @include heading(16, 700);
+  @include heading(18, 700, $nunito, 24px);
 }
 
 h6,
 .h6 {
-  @include heading(16, 700);
-}
-
-h1.page-title {
-  margin-bottom: rem-calc(12);
-}
-
-h4.label {
-  text-transform: none;
+  @include heading(18, 700, $nunito, 24px);
 }
 
 // Headers within long text.

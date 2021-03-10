@@ -79,7 +79,7 @@ nav.a11y-navbar {
 		@include list-reset();
 	}
 
-	font-family: $proxima;
+	font-family: $nunito;
 	display: block;
 	position: relative;
 	width: 100%;
@@ -467,7 +467,7 @@ nav.a11y-navbar {
 button.a11y-navbar-toggle {
 	@include button-reset();
 
-	font-family: $proxima;
+	font-family: $nunito;
 	background-color: $lt-gray;
 	color: $dk-gray;
 	width: 100%;
