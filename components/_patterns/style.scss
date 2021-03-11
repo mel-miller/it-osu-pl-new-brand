@@ -25,7 +25,7 @@
 
 // Hacks to be added to patterns.
 .layout__wrapper--article {
-  padding: rem-calc(40 100);
+  padding: rem-calc(40 120);
 }
 
 .category-tag {
@@ -34,10 +34,13 @@
   font-weight: 700;
   text-transform: uppercase;
   margin: rem-calc(8 0);
+  font-size: rem-calc(18);
 }
 
 .dateline {
   font-weight: 600;
+  color: $gray;
   margin: rem-calc(4 0 24);
   text-transform: uppercase;
+  font-size: rem-calc(14);
 }
