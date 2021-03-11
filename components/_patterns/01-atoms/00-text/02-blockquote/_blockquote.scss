@@ -6,8 +6,17 @@ blockquote {
   line-height: 1.75;
   margin: rem-calc(36 40);
 
+  &.blockquote--half {
+    width: 40%;
+    float: right;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: rem-calc(40);
+  }
+
   cite {
     font-family: $nunito;
+    color: $gray;
     font-weight: 600;
     font-style: normal;
     padding-top: rem-calc(12);
