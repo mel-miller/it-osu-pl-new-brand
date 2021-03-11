@@ -180,11 +180,11 @@ $defnlist-def-margin-bottom: rem-calc(12); // it-osu variable.
 
 /// Blockquote
 $blockquote-color: $gray-text;
-$blockquote-padding: rem-calc(0 40 0 20);
-$blockquote-border: 6px solid $gray-light;
+$blockquote-padding: rem-calc(12 40 12 20);
+$blockquote-border: 6px solid $red;
 $cite-font-size: rem-calc(15);
 $cite-color: $gray-text;
-$cite-pseudo-content: "\2014 \0020";
+$cite-pseudo-content: "";
 
 $keystroke-font: $font-family-monospace;
 $keystroke-color: $black;
