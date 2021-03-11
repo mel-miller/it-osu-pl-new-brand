@@ -9,7 +9,6 @@ blockquote {
   &.blockquote--half {
     width: 45%;
     float: right;
-    margin-top: 0;
     margin-right: 0;
     margin-left: rem-calc(60);
   }
@@ -17,8 +16,13 @@ blockquote {
   cite {
     font-family: $nunito;
     color: $gray;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     padding-top: rem-calc(12);
+
+    .cite-tile {
+      font-weight: 300;
+      font-style: italic;
+    }
   }
 }
