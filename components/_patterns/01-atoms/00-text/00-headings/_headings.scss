@@ -35,32 +35,34 @@
 
 h1,
 .h1 {
-  @include heading(40, 800, $ssp, 48px);
+  @include heading(42, 800, $ssp, 48px);
 }
 
 h2,
 .h2 {
-  @include heading(30, 800, $nunito, 40px);
+  @include heading(24, 400, $nunito, 30px, $color: $gray);
+  text-transform: uppercase;
+  margin-bottom: rem-calc(12);
 }
 
 h3,
 .h3 {
-  @include heading(24, 700, $nunito, 32px);
+  @include heading(18, 700, $nunito, 26px);
 }
 
 h4,
 .h4 {
-  @include heading(22, 600, $nunito, 28px);
+  @include heading(18, 600, $nunito, 26px);
 }
 
 h5,
 .h5 {
-  @include heading(20, 600, $nunito, 26px);
+  @include heading(18, 600, $nunito, 26px);
 }
 
 h6,
 .h6 {
-  @include heading(20, 600, $nunito, 26px);
+  @include heading(18, 600, $nunito, 26px);
 }
 
 // Headers within long text.
@@ -68,6 +70,13 @@ h6,
 .field--type-text-with-summary,
 .cke-field {
   p + h2,
+  ul + h2,
+  ol + h2,
+  .media + h2,
+  img + h2 {
+    margin-top: rem-calc(60);
+  }
+
   p + h3,
   p + h4,
   p + h5,
@@ -75,7 +84,6 @@ h6,
     margin-top: rem-calc(36);
   }
 
-  ul + h2,
   ul + h3,
   ul + h4,
   ul + h5,
@@ -83,7 +91,6 @@ h6,
     margin-top: rem-calc(36);
   }
 
-  ol + h2,
   ol + h3,
   ol + h4,
   ol + h5,
@@ -91,12 +98,10 @@ h6,
     margin-top: rem-calc(36);
   }
 
-  .media + h2,
   .media + h3,
   .media + h4,
   .media + h5,
   .media + h6,
-  img + h2,
   img + h3,
   img + h4,
   img + h5,

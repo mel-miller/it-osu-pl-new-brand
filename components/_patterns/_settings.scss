@@ -148,7 +148,7 @@ $header-margin-bottom: rem-calc(6);
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 85%;
 $header-small-font-color: $gray-dark;
-$paragraph-lineheight: 1.4;
+$paragraph-lineheight: 1.625;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
@@ -181,7 +181,7 @@ $defnlist-def-margin-bottom: rem-calc(12); // it-osu variable.
 /// Blockquote
 $blockquote-color: $gray-text;
 $blockquote-padding: rem-calc(8 40 4 20);
-$blockquote-border: 6px solid $red;
+$blockquote-border: 4px solid $red;
 $cite-font-size: rem-calc(15);
 $cite-color: $gray-text;
 $cite-pseudo-content: "";

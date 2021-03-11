@@ -25,16 +25,15 @@
 
 // Hacks to be added to patterns.
 .layout__wrapper--article {
-  padding: rem-calc(40 80);
+  padding: rem-calc(40 100);
 }
 
 .category-tag {
   display: inline-block;
-  background-color: $gray;
-  color: $white;
+  color: $red;
   font-weight: 700;
-  padding: rem-calc(4 12);
-  margin: rem-calc(8 0 24);
+  text-transform: uppercase;
+  margin: rem-calc(8 0);
 }
 
 .dateline {
