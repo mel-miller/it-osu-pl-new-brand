@@ -30,8 +30,7 @@ items:
       3: 400
       4: 600
       5: 700
-      6: 800
-      7: 900
+      6: 900
   - name: Source Serif Pro Italic
     value: "'Source Serif Pro', serif;"
     style: italic
@@ -41,5 +40,4 @@ items:
       3: 400
       4: 600
       5: 700
-      6: 800
-      7: 900
+      6: 900
