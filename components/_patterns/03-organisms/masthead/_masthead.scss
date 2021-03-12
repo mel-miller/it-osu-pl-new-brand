@@ -14,7 +14,6 @@
 
 a.site-name__link {
   text-decoration: none;
-  letter-spacing: 0.0125em;
 
   &:hover {
     background: none;
@@ -28,7 +27,7 @@ a.site-name__link {
 
 .site-name__prefix {
   display: block;
-  font-weight: 400;
+  font-weight: 300;
   margin-left: 2px;
   letter-spacing: 0.0125em;
 }
@@ -83,7 +82,7 @@ a.site-logo__link {
   }
 
   a.site-name__link {
-    @include heading(40, 700, $line-height: 1);
+    @include heading(40, 800, $line-height: 1);
     color: $text-color;
 
     &:focus {
