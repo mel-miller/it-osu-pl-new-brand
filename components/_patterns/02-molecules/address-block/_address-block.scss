@@ -17,8 +17,8 @@
 .address-block__address {
   p {
     margin: 0;
-    font-size: 0.875rem;
-    line-height: 1.375;
+    font-size: rem-calc(13);
+    line-height: 1.75;
     font-weight: 400;
   }
 
@@ -29,8 +29,7 @@
   }
 
   .pipe {
-    font-size: 120%;
-    vertical-align: -2%;
+    font-weight: 300;
   }
 
   span.mailto,
