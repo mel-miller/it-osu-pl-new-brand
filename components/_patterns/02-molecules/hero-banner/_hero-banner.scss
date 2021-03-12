@@ -58,14 +58,14 @@
 }
 
 .hero-banner__text {
-  @include heading(24, 700);
+  @include heading(24, 800);
 
   @include breakpoint(medium) {
-    @include heading(22, 700);
+    @include heading(22, 800);
   }
 
   @include breakpoint(large) {
-    @include heading(26, 700);
+    @include heading(26, 800);
   }
 }
 
