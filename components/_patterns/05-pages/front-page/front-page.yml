@@ -1,8 +1,12 @@
 masthead_variant: standard
 masthead_color: white
-banner_image: '../../images/banners/pare.jpg'
+site_name_prefix: 
+site_name_secondary: College Name Goes Here
+banner_image: '../../images/banners/sp21-kl-homepage.jpg'
 banner_image_alt: "Alt text for this image."
-banner_text: Learn how to temporarily move your class online.
+banner_text: 
+  1: Learn how to move
+  2: your class online.
 banner_link_src: '#'
 banner_link_title: View Resources
 menu_items:
@@ -28,25 +32,22 @@ breadcrumb:
 card_data:
   1:
     card_image: '../../images/cards/placeimg_640_480_tech_3.jpg'
-    card_title: First Card
+    card_title: Learn Web Development
     card_text: |-
-      Maybe you'll want more text here.
-      A few lines or so?
-    card_link_title: Card Link
+     Here's some info about the program and how sign up.
+    card_link_title: Register
     card_link_url: '#'
   2:
     card_image: '../../images/banners/energy_3760.jpeg'
-    card_title: Second Card
+    card_title: Solar Panels
     card_text: |-
-      Maybe you'll want more text here.
-      A few lines or so?
-    card_link_title: Card Link
+      Somebody is adding them to their building and wants to talk about it.
+    card_link_title: Learn More
     card_link_url: '#'
   3:
     card_image: '../../images/cards/placeimg_640_480_tech_2.jpg'
-    card_title: Third Card
+    card_title: Design Course Offerings
     card_text: |-
-      Maybe you'll want more text here.
-      A few lines or so?
-    card_link_title: Card Link
+      Learn about your options for next semester.
+    card_link_title: View Offerings
     card_link_url: '#'

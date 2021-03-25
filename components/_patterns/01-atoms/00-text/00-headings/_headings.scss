@@ -35,19 +35,19 @@
 
 h1,
 .h1 {
-  @include heading(42, 800, $ssp, 48px);
+  @include heading(44, 800, $ssp, 48px);
 }
 
 h2,
 .h2 {
-  @include heading(26, 400, $nunito, 30px, $color: $gray);
+  @include heading(20, 600, $nunito, 24px, $color: $gray);
   text-transform: uppercase;
   margin-bottom: rem-calc(12);
 }
 
 h3,
 .h3 {
-  @include heading(18, 800, $nunito, 26px);
+  @include heading(17, 800, $nunito, 26px);
 }
 
 h4,

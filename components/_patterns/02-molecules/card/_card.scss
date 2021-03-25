@@ -22,20 +22,21 @@
 }
 
 .card__title {
-  @include heading(26, 800);
-  margin-bottom: $header-margin-bottom-narrow;
+  @include heading(23, 800);
+  margin-bottom: rem-calc(6);
   h2,
   h3,
   h4,
   h5,
   h6 {
-    @include heading(26, 700);
-    margin-bottom: 0;
+    @include heading(23, 800);
+    margin-bottom: rem-calc(6);
   }
 }
 
 .card__content {
   font-weight: 400;
+  line-height: 1.375;
 
   p:last-child {
     margin-bottom: 0;
@@ -44,4 +45,5 @@
 
 .card__link {
   margin-top: $space-y;
+  font-weight: 600;
 }

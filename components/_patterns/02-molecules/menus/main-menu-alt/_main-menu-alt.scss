@@ -9,13 +9,14 @@ ul.menu--main-menu-alt {
     a {
       text-decoration: none;
       font-weight: 400;
-      color: $black;
-      padding: rem-calc(12 14 11);
+      color: $gray-dark;
+      padding: rem-calc(10 12 9);
       display: inline-block;
+      font-size: rem-calc(14);
 
       &:hover {
         color: $white;
-        background-color: $black;
+        background-color: $gray;
       }
       &:focus {
         outline: 2px solid $near-black;

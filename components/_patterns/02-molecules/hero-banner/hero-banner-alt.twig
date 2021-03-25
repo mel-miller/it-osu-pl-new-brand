@@ -1,0 +1,18 @@
+<div class="hero-banner hero-banner--alt">
+
+	{% if pl %}
+		<div class="hero-banner__image">
+			<img src="{{ banner_image }}" alt="{{ banner_image_alt }}"/>
+		</div>
+	{% else %}
+		{# If drupal use rendered media which will inlcude alt text. #}
+		<div class="hero-banner__image">{{ banner_image }}</div>
+	{% endif %}
+	<div class="hero-banner__inner">
+		<div class="hero-banner__content">
+			{% for item in banner_text %}
+				<div class="hero-banner__text">{{ item }}</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

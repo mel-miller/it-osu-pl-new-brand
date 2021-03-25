@@ -73,3 +73,27 @@
   margin-top: rem-calc(20);
   margin-bottom: rem-calc(2);
 }
+
+.hero-banner--alt {
+  max-height: 360px;
+  .hero-banner__content {
+    @include breakpoint(medium) {
+      background-color: $clear;
+      box-shadow: none;
+      margin-top: 0;
+      margin-left: -3rem;
+      position: absolute;
+      top: 4rem;
+      max-width: 600px;
+    }
+  }
+  .hero-banner__text {
+    font-size: rem-calc(44);
+    font-family: $ssp;
+    color: $red;
+    background-color: $white;
+    display: inline-block;
+    padding: rem-calc(8 16);
+    margin-top: -18px;
+  }
+}
