@@ -143,3 +143,10 @@ a.site-logo__link {
 .masthead--standard.masthead--dk-gray {
   @include masthead-standard($near-black, $white);
 }
+
+.masthead--ssp.masthead--white {
+  @include masthead-standard();
+  a.site-name__link {
+    @include heading(40, 900, $ssp, $line-height: 1);
+  }
+}

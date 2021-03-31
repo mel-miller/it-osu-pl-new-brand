@@ -1,4 +1,6 @@
 .hero-banner {
+  max-height: 360px;
+  overflow: hidden;
   position: relative;
   @include breakpoint(xxlarge) {
     max-height: 600px;
@@ -41,19 +43,19 @@
   box-shadow: $drop-shadow;
 
   @include breakpoint(medium) {
-    background-color: rgba(240, 240, 240, 0.8);
+    background-color: $white;
     margin-top: 0;
     position: absolute;
     top: 1.5em;
-    max-width: 400px;
+    max-width: 360px;
   }
 
   @include breakpoint(large) {
     top: 2.5em;
-    max-width: 460px;
+    max-width: 400px;
   }
   @include breakpoint(xlarge) {
-    top: 3em;
+    top: 3.5em;
   }
 }
 
@@ -74,8 +76,8 @@
   margin-bottom: rem-calc(2);
 }
 
-.hero-banner--alt {
-  max-height: 360px;
+.hero-banner--alt-colorfield {
+  max-height: 340px;
   .hero-banner__content {
     @include breakpoint(medium) {
       background-color: $clear;
@@ -94,6 +96,29 @@
     background-color: $white;
     display: inline-block;
     padding: rem-calc(8 16);
-    margin-top: -18px;
+    margin-top: -12px;
+  }
+}
+
+.hero-banner--alt-white {
+  max-height: 340px;
+  .hero-banner__content {
+    @include breakpoint(medium) {
+      background-color: $clear;
+      box-shadow: none;
+      margin-top: 0;
+      margin-left: -1.5rem;
+      position: absolute;
+      top: 3rem;
+      max-width: 460px;
+    }
+  }
+  .hero-banner__text {
+    font-size: rem-calc(52);
+    font-family: $ssp;
+    font-weight: 800;
+    line-height: 1.1;
+    color: $white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.85);
   }
 }

@@ -1,13 +1,10 @@
-masthead_variant: standard
+masthead_variant: ssp
 masthead_color: white
 site_name_prefix: 
 site_name_secondary: College Name Goes Here
-banner_variant: colorfield
 banner_image: '../../images/banners/sp21-kl-homepage.jpg'
 banner_image_alt: "Alt text for this image."
-banner_text: 
-  1: Learn how to move
-  2: your class online.
+banner_text: Learn how to temporarily move your class online.
 banner_link_src: '#'
 banner_link_title: View Resources
 menu_items:
