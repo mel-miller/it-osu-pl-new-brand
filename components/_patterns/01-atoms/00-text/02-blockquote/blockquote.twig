@@ -1,13 +1,13 @@
 {% if blockquote_modifier %}
-	<blockquote class="blockquote blockquote--{{ blockquote_modifier }}">
+	<blockquote class='blockquote blockquote--{{ blockquote_modifier }}'>
 	{% else %}
-		<blockquote class="blockquote">
+		<blockquote class='blockquote'>
 		{% endif %}
 		{{ blockquote_content }}
 		<cite>
 			{{- blockquote_citation_name -}}
-			{% if blockquote_citation_title %},
-				<span class="cite-tile">
+			{% if blockquote_citation_title %}
+				<span class='cite-tile'>
 					{{ blockquote_citation_title }}
 				</span>
 			{% endif %}

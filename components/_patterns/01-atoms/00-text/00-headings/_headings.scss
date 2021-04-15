@@ -40,14 +40,14 @@ h1,
 
 h2,
 .h2 {
-  @include heading(20, 600, $nunito, 24px, $color: $gray);
+  @include heading(22, 600, $nunito, 24px, $color: $gray);
   text-transform: uppercase;
   margin-bottom: rem-calc(12);
 }
 
 h3,
 .h3 {
-  @include heading(17, 800, $nunito, 26px);
+  @include heading(18, 700, $nunito, 26px);
 }
 
 h4,

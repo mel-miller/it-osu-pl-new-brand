@@ -3,11 +3,11 @@ blockquote {
   font-weight: 800;
   color: $near-black;
   font-size: rem-calc(20);
-  line-height: 1.75;
-  margin: rem-calc(36 40);
+  line-height: 1.5;
+  margin: rem-calc(4 40 36 40);
 
   &.blockquote--half {
-    width: 45%;
+    width: 48%;
     float: right;
     margin-right: 0;
     margin-left: rem-calc(60);
@@ -15,14 +15,18 @@ blockquote {
 
   cite {
     font-family: $nunito;
-    color: $gray;
+    color: darken($gray, 5%);
     font-weight: 700;
     font-style: normal;
-    padding-top: rem-calc(12);
+    padding-top: rem-calc(20);
+    font-size: rem-calc(16);
+    line-height: 1.5;
 
     .cite-tile {
-      font-weight: 300;
-      font-style: italic;
+      display: block;
+      font-weight: 400;
+      font-size: rem-calc(14);
+      line-height: 1.25;
     }
   }
 }
